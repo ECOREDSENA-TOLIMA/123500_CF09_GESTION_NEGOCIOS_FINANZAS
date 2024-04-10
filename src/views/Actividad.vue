@@ -9,15 +9,15 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9(data-aos="fade-left")
-        .titulo-segundo
-          h2 Nombre_de_la_actividad
-        p.mb-4 Objetivo_actividad
+        .titulo-segundo.color-primario
+          h2 El proceso de análisis de búsqueda de datos y elaboración de informes técnicos
+        p.mb-4 Validar los conocimientos y conceptos aprendidos en el proceso para el manejo y análisis de datos para elaborar informes bajo los estándares solicitados.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo_de_actividad
+              p.fw-bold.mb-0 verdadero/falso
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
                 

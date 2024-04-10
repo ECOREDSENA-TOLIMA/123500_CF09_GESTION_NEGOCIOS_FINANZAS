@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
+    componenteFormativo:
+      'Análisis de la información y elaboración de informes técnicos',
+    descripcionCurso:
+      'El manejo de datos requiere de técnicas de análisis, software especializado y, en algunas ocasiones, hardware de gran alcance debido al procesamiento de las variables. Las personas encargadas de estas actividades deben manejar herramientas ofimáticas, establecimiento de procesos comunicativos asertivos, habilidades investigativas, aprendizaje continuo, creatividad e innovación, adaptabilidad al cambio, toma de decisiones y aplicar el principio de transparencia y confidencialidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,28 +33,35 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Información',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Análisis',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Bases de datos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Representación de la información',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Talento humano',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Informe técnico',
+            hash: 't_1_5',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,28 +111,141 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '1.2 Bases de datos',
+      referencia:
+        'Dawn, H., y Otero-Piñeiro, D. (2018). Big Data: una breve introducción. Antoni Bosch Editor.',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB122682',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.3 Representación de la información',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2014). Tecnología de la información: técnicas de seguridad. Gestión de incidentes de seguridad de la información. Icontec.',
+      tipo: 'Libro',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
+    },
+    {
+      tema: '1.4 Taletno humano',
+      referencia:
+        'Razak, M., Nor, B., A., Rosli, S., & Ahmad, F.. (2016). The rise of “malware”: bibliometric analysis of malware study. Journal of Network and Computer Applications, 75, 58-76.',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_infotracacademiconefile_A518245030',
+    },
+    {
+      tema: '1.2 Bases de datos',
+      referencia:
+        'Spain BS. (2015). Webinar big data para dummies. [Video]. YouTube. https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
+    },
+    {
+      tema: '1.4 Talento humano',
+      referencia:
+        'RSG Consultoría Gerencial. (2018). Mantenimiento básico y respaldo de las bases de datos SQL y HANA. [Vídeo]. YouTube. https://www.youtube.com/watch?v=VHCGFSrAAio',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=VHCGFSrAAio',
+    },
+    {
+      tema: '1.5 Informes técnicos',
+      referencia:
+        'ESNAP Instituto Interamericano. (2018). Curso gratis de redacción de informes técnicos. [Vídeo]. YouTube. https://www.youtube.com/watch?v=s8QzYpP4QyA',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=s8QzYpP4QyA',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Confidencialidad',
+      significado:
+        'estado de la información donde se asegura que esta no puede ser compartida, distribuida o revelada a terceros sin expresa autorización de su propietario.',
+    },
+    {
+      termino: 'Datos',
+      significado:
+        'cualquier objeto que pueda entregar información o significado para el lector. El dato puede ser manipulable en forma manuscrita o por medio de un computador. Puede ser un carácter capturado desde un teclado, extraída de algún espacio de memoria en disco, o almacenado en la memoria central, etc.',
+    },
+    {
+      termino: '<em>Hardware</em>',
+      significado:
+        'elementos físicos conformados por microprocesadores, microcontroladores y demás dispositivos microelectrónicos que, en conjunto, forman una equipo funcional, ejemplo: computador, tarjetas de gráficos, etc.',
+    },
+    {
+      termino: 'Propietario',
+      significado:
+        'dueño de la información. Es el único que puede otorgar permisos para poder compartir los datos con terceros y definir el ciclo de vida de esta.',
+    },
+    {
+      termino: 'Seguridad de la Información SI',
+      significado:
+        'encargada de proteger los datos contra robo de información, acceso no autorizado, obstaculización al sistema informático, manipulación y/o eliminación de datos. Cuando se habla de procesos empresariales impulsados en la transformación digital con tecnología de punta, se entiende que están expuestos a diferentes vulnerabilidades, amenazas y ataques informáticos dirigidos a la seguridad y la privacidad de la información. Mediante la norma ISO 27001, la implementación del SGSI sigue el modelo PHVA para la mejora continua de procesos.',
+    },
+    {
+      termino: '<em>Software</em>',
+      significado:
+        'programas instalados o configurados en el hardware que logran el funcionamiento eficiente de todos los periféricos y puertos de los equipos, ejemplo: sistemas operativos, antivirus, <em>firewall</em>, aplicaciones, etc',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Archivo General de la Nación - AGN. (2018). Fundamentos digital preservación plazo. AGN',
+      link:
+        'https://www.archivogeneral.gov.co/caja_de_herramientas/docs/6.%20preservacion/DOCUMENTOS%20TECNICOS/FUNDAMENTOS%20PRESERVACION%20DIGITAL%20LARGO%20PLAZO.pdf',
+    },
+    {
+      referencia:
+        'Consulting informático. (2016). Seguridad de la información y ciberseguridad ¿es lo mismo?',
+      link:
+        'https://www.cic.es/seguridad-de-la-informacion-y-ciberseguridad-es-lo-mismo/',
+    },
+    {
+      referencia:
+        'DNP. (2020). Guía normativa aplicable a la explotación de datos. DNP.',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Desarrollo%20Digital/Documentos/Modelo%20Explotacion%20de%20datos/2.3%20Gu%C3%ADa%20normativa%20explotaci%C3%B3n%20de%20datos_VF.pdf',
+    },
+    {
+      referencia:
+        'Escuela Europea de Postgrado. (2022). ¿Por qué estudiar Big Data? EUDE.',
+      link: 'https://www.eude.es/blog/por-que-estudiar-big-data/',
+    },
+    {
+      referencia:
+        'Estrada, V., M. E. (2016). Gestión de la información versus gestión del conocimiento; términos que maneja a diario el profesional de la información. Infotecarios.',
+      link:
+        'https://www.infotecarios.com/gestion-la-informacion-versus-gestion-del-conocimiento-terminos-maneja-diario-profesional-la-informacion/#.YmMRbtrMLrc',
+    },
+    {
+      referencia:
+        'Gobierno de España. (2021). Las herramientas de análisis de datos más populares. Gobierno de España',
+      link:
+        'https://datos.gob.es/es/blog/las-herramientas-de-analisis-de-datos-mas-populares',
+    },
+    {
+      referencia: 'Google Sites. (2022). Dato - Sección Informática.',
+      link: 'https://www.glosarioit.com/Dato',
+    },
+    {
+      referencia: 'IBM. (2020). Análisis exploratorio de datos. IBM.',
+      link: 'https://www.ibm.com/co-es/cloud/learn/exploratory-data-analysis',
+    },
+    {
+      referencia:
+        'Peña, O. (2020). Analítica de datos, ¿Para qué sirve y qué es? Poliverso.',
+      link: 'https://www.poli.edu.co/blog/poliverso/analitica-de-datos',
+    },
+    {
+      referencia: 'Securizando. (2017). Tipos de firewall. Securizando.',
+      link: 'https://securizando.com/tipos-de-firewall/',
+    },
+    {
+      referencia:
+        'Xataka Basics. (2017). Qué es un proxy y cómo puedes utilizarlo para navegar de forma más anónima. Xataka.',
+      link:
+        'https://www.xataka.com/basics/que-es-un-proxy-y-como-puedes-utilizarlo-para-navegar-de-forma-mas-anonima',
     },
   ],
   creditos: [
@@ -131,14 +253,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
-          cargo: 'Responsable del equipo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Centro de Servicios de Salud - Regional Tolima',
         },
       ],
     },
@@ -146,9 +268,32 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Abel Fernando Becerra Carrillo',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de la Industria, la empresa y los servicios- Región Norte de Santander',
+        },
+        {
+          nombre: 'Diego E. Acevedo Guevara',
+          cargo: 'Diseño Instruccional',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Asesoría metodológica y evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrección de estilo',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
     },
@@ -156,19 +301,29 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Diseñador web',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animación y producción audiovisual',
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Diseño web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Guiza',
+          cargo: 'Desarrollo Fullstack',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Francisco José Vásquez Suárez',
+          cargo: 'Desarrollo Fullstack',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
       ],
     },
@@ -176,19 +331,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación y vinculación de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
       ],
     },

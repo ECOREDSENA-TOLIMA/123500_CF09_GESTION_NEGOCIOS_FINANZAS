@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5(data-aos="fade-right") A_continuación_se_muestra_un_mapa_conceptual
+    p.mb-5(data-aos="fade-right") Los datos y su tratamiento son vitales para la gestión de un negocio exitoso y para poder transformarlos en conversiones, estos datos y métricas requieren de técnicas de análisis, software especializado y ciertas competencias que permiten que las bases de datos se mantengan con información fiable y se actualicen; a continuación, se presenta un esquema general de ello en la siguiente síntesis.
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")

@@ -2,17 +2,106 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 25%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 21%
+    right: 20%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+  .tarjetas-up_card.otros
+    bottom: -75%
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+  .tarjetas-up_card.otros
+    bottom: -62%
+    
+.color-custom-5
+  background-color:  #DBE5F3
+  &::before
+    background-color: #03386E
+
+.color-custom-6
+  background-color:  #E1EFE3
+  &::before
+    background-color: #2B7E3B
+
+.aling
+  justify-content: center
+
+.bg-color-1
+  background-image: url("../assets/curso/temas/tema1/back_ico_2.svg") !important
+  background-repeat: no-repeat 
+  margin-top: -15px
+
+.bg-color-2
+  background-image: url("../assets/curso/temas/tema1/back_ico_1.svg") !important
+  background-repeat: no-repeat 
+  margin-top: -15px
+
+.bg-color-3
+  background-image: url("../assets/curso/temas/tema1/back_ico_3.svg") !important
+  background-repeat: no-repeat 
+  margin-top: -15px
+  
+.tarjeta.tarjeta--azul
+  background: linear-gradient(0deg,#E3ECF7, #E1EFE3)
+  background-repeat: no-repeat
+  background-size: cover
+
+  .bn
+    .slyder-a__bullets__item
+      position: relative
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin-top: 3rem !important
+
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
+
+.slyder-a__bullets__item
+  background-color: $color-secundario
+
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones
+
+.tarjeta.color-acento-contenido
+  background-color: lighten($color-acento-contenido, 20%)
+  p,.h5,ul,li,i,em,b,h4
+    color: #000 !important
+
+.ss
+  color: #3AE3FE
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+.tarjeta.color-primario
+  background-color: #FEF5E5
+
+.tarjeta.color-primario
+  h4,p,li,p
+    color: #000 !important
+
+.tarjeta.color-secundario
+  background-color: #E1FBFF
+
+.tarjeta.color-secundario
+  h4,p,li,p
+    color: #000 !important
