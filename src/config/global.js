@@ -3,9 +3,9 @@ export default {
     componenteFormativo:
       'Análisis de la información y elaboración de informes técnicos',
     descripcionCurso:
-      'El manejo de datos requiere de técnicas de análisis, software especializado y, en algunas ocasiones, hardware de gran alcance debido al procesamiento de las variables. Las personas encargadas de estas actividades deben manejar herramientas ofimáticas, establecimiento de procesos comunicativos asertivos, habilidades investigativas, aprendizaje continuo, creatividad e innovación, adaptabilidad al cambio, toma de decisiones y aplicar el principio de transparencia y confidencialidad.',
+      'El manejo de datos requiere de técnicas de análisis, <em>software</em> especializado y, en algunas ocasiones, <em>hardware</em> de gran alcance debido al procesamiento de las variables. Las personas encargadas de estas actividades deben manejar herramientas ofimáticas, establecimiento de procesos comunicativos asertivos, habilidades investigativas, aprendizaje continuo, creatividad e innovación, adaptabilidad al cambio, toma de decisiones y aplicar el principio de transparencia y confidencialidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -113,7 +113,7 @@ export default {
     {
       tema: '1.2 Bases de datos',
       referencia:
-        'Dawn, H., y Otero-Piñeiro, D. (2018). Big Data: una breve introducción. Antoni Bosch Editor.',
+        'Dawn, H., y Otero-Piñeiro, D. (2018). <em>Big Data: una breve introducción.</em> Antoni Bosch Editor.',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB122682',
@@ -121,23 +121,15 @@ export default {
     {
       tema: '1.3 Representación de la información',
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2014). Tecnología de la información: técnicas de seguridad. Gestión de incidentes de seguridad de la información. Icontec.',
+        'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2014). <em>Tecnología de la información: técnicas de seguridad. Gestión de incidentes de seguridad de la información. Icontec.</em>',
       tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
     },
     {
-      tema: '1.4 Taletno humano',
-      referencia:
-        'Razak, M., Nor, B., A., Rosli, S., & Ahmad, F.. (2016). The rise of “malware”: bibliometric analysis of malware study. Journal of Network and Computer Applications, 75, 58-76.',
-      tipo: 'Artículo',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_gale_infotracacademiconefile_A518245030',
-    },
-    {
       tema: '1.2 Bases de datos',
       referencia:
-        'Spain BS. (2015). Webinar big data para dummies. [Video]. YouTube. https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
+        'Spain BS. (2015). Webinar <em>big data</em> para dummies. [Video]. YouTube. https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
     },
@@ -185,7 +177,7 @@ export default {
     {
       termino: '<em>Software</em>',
       significado:
-        'programas instalados o configurados en el hardware que logran el funcionamiento eficiente de todos los periféricos y puertos de los equipos, ejemplo: sistemas operativos, antivirus, <em>firewall</em>, aplicaciones, etc',
+        'programas instalados o configurados en el <em>hardware</em> que logran el funcionamiento eficiente de todos los periféricos y puertos de los equipos, ejemplo: sistemas operativos, antivirus, <em>firewall</em>, aplicaciones, etc',
     },
   ],
   referencias: [
@@ -197,7 +189,7 @@ export default {
     },
     {
       referencia:
-        'Consulting informático. (2016). Seguridad de la información y ciberseguridad ¿es lo mismo?',
+        '<em>Consulting</em> informático. (2016). Seguridad de la información y ciberseguridad ¿es lo mismo?',
       link:
         'https://www.cic.es/seguridad-de-la-informacion-y-ciberseguridad-es-lo-mismo/',
     },
@@ -209,7 +201,7 @@ export default {
     },
     {
       referencia:
-        'Escuela Europea de Postgrado. (2022). ¿Por qué estudiar Big Data? EUDE.',
+        'Escuela Europea de Postgrado. (2022). ¿Por qué estudiar <em>Big Data</em>? EUDE.',
       link: 'https://www.eude.es/blog/por-que-estudiar-big-data/',
     },
     {
@@ -238,14 +230,20 @@ export default {
       link: 'https://www.poli.edu.co/blog/poliverso/analitica-de-datos',
     },
     {
-      referencia: 'Securizando. (2017). Tipos de firewall. Securizando.',
+      referencia:
+        'Securizando. (2017). Tipos de <em>firewall.</em> Securizando.',
       link: 'https://securizando.com/tipos-de-firewall/',
     },
     {
       referencia:
-        'Xataka Basics. (2017). Qué es un proxy y cómo puedes utilizarlo para navegar de forma más anónima. Xataka.',
+        'Xataka Basics. (2017). Qué es un <em<proxy</em> y cómo puedes utilizarlo para navegar de forma más anónima. Xataka.',
       link:
         'https://www.xataka.com/basics/que-es-un-proxy-y-como-puedes-utilizarlo-para-navegar-de-forma-mas-anonima',
+    },
+    {
+      referencia:
+        'Glosario it.com. (2022). Herramientas de respaldo y recuperación de archivos.',
+      link: 'https://www.glosarioit.com/Dato',
     },
   ],
   creditos: [
@@ -281,7 +279,7 @@ export default {
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesoría metodológica y evaluación instruccional',
+          cargo: 'Asesoría Metodológica y Evaluación Instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
@@ -292,7 +290,7 @@ export default {
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -302,17 +300,17 @@ export default {
       autores: [
         {
           nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción audiovisual',
+          cargo: 'Producción Audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'José Jaime Luis Tang Pinzón',
-          cargo: 'Diseño web',
+          cargo: 'Diseño Web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
@@ -332,12 +330,12 @@ export default {
       autores: [
         {
           nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y vinculación de recursos educativos digitales',
+          cargo: 'Validación y Vinculación de Recursos Educativos Digitales',
           centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
       ],

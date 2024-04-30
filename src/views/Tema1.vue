@@ -23,9 +23,11 @@
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
+        .titulo-sexto.color-acento-contenido
+          p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Gestión de la información</em>
         figure
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig_2a.svg', alt='Esquema que relaciona el proceso de la planificación financiera, el cual parte de nuevas estrategias que tienen una situación actual y situaciones futuras deseadas y no deseadas.')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_2b.svg', alt='Esquema que relaciona el proceso de la planificación financiera, el cual parte de nuevas estrategias que tienen una situación actual y situaciones futuras deseadas y no deseadas.') 
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_2b.svg', alt='') 
 
     #t_1_1.row.mb-3.ps-2(data-aos="zoom-in-down")
       .h4.mb-0.mx-3 1.1 Análisis
@@ -51,7 +53,7 @@
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-5 Función
-              p.mb-0 Se puede utilizar un EDA para tener la certeza de que los resultados o las conclusiones producidas sean confiables, válidas, aplicables e irrefutables con los objetivos y/o resultados deseados, del mismo modo, apoya a los interesados del proyecto o stakeholders a confirmar que se hacen las preguntas correctas a la base de datos (DB).
+              p.mb-0 Se puede utilizar un EDA para tener la certeza de que los resultados o las conclusiones producidas sean confiables, válidas, aplicables e irrefutables con los objetivos y/o resultados deseados, del mismo modo, apoya a los interesados del proyecto o <em>stakeholders</em> a confirmar que se hacen las preguntas correctas a la base de datos (DB).
             
             .col-lg-5
               figure
@@ -60,7 +62,7 @@
           .row
             .col-lg-7.mb-4.mb-lg-0
               h4.mb-5 Importancia del EDA en el análisis de datos
-              p.mb-0 El EDA responde requerimientos de intervalos de confianza, variables categóricas o desviación estándar. Una vez se complete el EDA y se extraigan los insights (claves), estos se utilizan para un análisis más complejo o modelado de datos más sofisticado, que incluye el uso de machine learning (dota a los ordenadores de la capacidad de identificar patrones en datos masivos y elaborar predicciones).
+              p.mb-0 El EDA responde requerimientos de intervalos de confianza, variables categóricas o desviación estándar. Una vez se complete el EDA y se extraigan los <em>insights</em> (claves), estos se utilizan para un análisis más complejo o modelado de datos más sofisticado, que incluye el uso de <em>machine learning</em> (dota a los ordenadores de la capacidad de identificar patrones en datos masivos y elaborar predicciones).
             
             .col-lg-5
               figure
@@ -172,7 +174,7 @@
       .h4.mb-0.mx-3 1.2 Bases de datos
       .col-lg-4.bg-color-2.px-4.py-3
 
-    p.mb-5 Las Bases de Datos (DB, por sus siglas en inglés) son un conjunto de datos estructurado donde se almacenan estos de forma organizada y relacionada para que se pueda acceder a los registros rápidamente mediante comandos con la ayuda del lenguaje de programación y un equipo de cómputo. Del mismo modo, las DB se usan para el desarrollo de análisis, depuración y estructuración a fin de generar informes de datos complejos.
+    p.mb-5 Las Bases de Datos (DB, por sus siglas en inglés) son un conjunto de datos estructurado donde se almacenan estos de forma organizada y relacionada, para que se pueda acceder a los registros rápidamente mediante comandos, con la ayuda del lenguaje de programación y un equipo de cómputo. Del mismo modo, las DB se usan para el desarrollo de análisis, depuración y estructuración, a fin de generar informes de datos complejos.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
       .bloque-texto-g__img(
@@ -184,7 +186,7 @@
           br
           | Cada herramienta aborda desde distintos ángulos el estudio, así hay unas de licencia <em>free</em> (sin costo) y otras <em>premium</em> (por lo general licencia a un año), existen unas que se conectan con <em>software</em> comúnmente usado como Excel o Power BI y hay otras que son completamente cerradas a un único fabricante.
 
-    p.mb-5 A través del siguiente video se exponen algunos softwares de procesamiento de datos
+    p.mb-5 A través del siguiente video se exponen algunos <em>softwares</em> de procesamiento de datos
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -253,7 +255,7 @@
             p.mb-0 Prohibir conectarse a redes inalámbricas personales o desconocidas desde el computador de trabajo.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
-            p.mb-0 Los puertos de transmisión y recepción de infrarrojo y bluetooth deben estar deshabilitados.
+            p.mb-0 Los puertos de transmisión y recepción de infrarrojo y <em>bluetooth</em> deben estar deshabilitados.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
             p.mb-0 Restringir el uso de recursos compartidos configurados en equipos de usuario, se debe hacer uso del servidor de archivos (Unidad G o la asignada por el personal de oficina de sistemas e informática).
@@ -262,20 +264,17 @@
             p.mb-0 Solo personal autorizado por la oficina de sistemas e informática puede realizar mantenimiento, soporte o reparaciones a equipos de cómputo.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
-            p.mb-0 Los usuarios no deben instalar o desinstalar software o equipos periféricos, este debe realizar la petición al encargado de la oficina de sistemas e informática.
+            p.mb-0 Los usuarios no deben instalar o desinstalar <em>software</em> o equipos periféricos, este debe realizar la petición al encargado de la oficina de sistemas e informática.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
-            p.mb-0 No se debe instalar ningún software de conexiones remotas, por ejemplo, 
+            p.mb-0 No se debe instalar ningún <em>software</em> de conexiones remotas, por ejemplo, TeamViewer, Real VNC Logmain, etc., debe utilizarse únicamente la VPN asignada por la oficina de sistemas e informática.
 
     .row.align-items-center.justify-content-center.mb-4
       .col-md-7(data-aos="fade-right") 
         ul.lista-ul
-          li(data-aos="fade-right")
-            i.fas.fa-folder.ss
-            p.mb-0 TeamViewer, Real VNC Logmain, etc., debe utilizarse únicamente la VPN asignada por la oficina de sistemas e informática.
           li(data-aos="fade-right") 
             i.fas.fa-folder.ss
-            p.mb-0 No instalar software, como juegos y/o utilitarios.
+            p.mb-0 No instalar <em>software</em>, como juegos y/o utilitarios.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
             p.mb-0 El almacenamiento de información de negocio de cada una de las áreas debe reposar en el recurso compartido (unidad G o la asignada por el personal de oficina de sistemas e informática) dispuesto para cada proceso y no almacenados en el PC, ya que la información de negocio contenida en los equipos de cómputo puede dañarse y se perdería de esta forma la información allí contenida.
@@ -314,7 +313,7 @@
             p.mb-0 Sobre el escritorio únicamente deben permanecer los elementos necesarios para desarrollar la labor asignada.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
-            p.mb-0 Solo usuarios custodios o aquellos que por actividad relacionada directamente con cuartos que contienen racks de cableado o equipos de comunicaciones deben acceder a ellos.
+            p.mb-0 Solo usuarios custodios o aquellos que por actividad relacionada directamente con cuartos que contienen <em>racks</em> de cableado o equipos de comunicaciones deben acceder a ellos.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
             p.mb-0 Se prohíbe el ingreso de cámaras, equipos y/o celulares con funciones de video, almacenamiento, audio o similares, sin previa autorización, justificación y solo se aceptarán para una actividad laboral necesaria.
@@ -323,7 +322,7 @@
             p.mb-0 Los monitores de los PC deben quedar bloqueados y apagados al finalizar la jornada laboral.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
-            p.mb-0 Las llaves de los racks deben quedar almacenadas en un lugar seguro y los racks cerrados al finalizar la jornada laboral.
+            p.mb-0 Las llaves de los <em>racks</em> deben quedar almacenadas en un lugar seguro y los <em>racks</em> cerrados al finalizar la jornada laboral.
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
             p.mb-0 El almacenamiento en la nube de la entidad es para uso estrictamente laboral y/o académico, almacenar información técnica o científica y, en general, almacenar únicamente información que sea de relevancia para la entidad.
@@ -438,7 +437,7 @@
 
                 li(data-aos="fade-right") 
                   i.fas.fa-folder.ss
-                  p.mb-0 Hacer borrado integral en el historial del navegador, incluyendo cookies, datos personales y contraseñase.
+                  p.mb-0 Hacer borrado integral en el historial del navegador, incluyendo <em>cookies</em>, datos personales y contraseñas.
 
                 li(data-aos="fade-right")
                   i.fas.fa-folder.ss
@@ -662,8 +661,8 @@
             .col-lg-12
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Para complementar sus conocimientos sobre cómo realizar un informe técnico, se puede referir al video Curso gratis de redacción de informes técnicos, el cual se encuentra en el material complementario. 
-
+                  p.mb-0 Para ampliar la información y tener un conocimiento general de la normatividad, se puede referir al enlace Normas APA: Cómo presentar trabajos escritos en https://normasapa.in/
+                  
 
 
 
