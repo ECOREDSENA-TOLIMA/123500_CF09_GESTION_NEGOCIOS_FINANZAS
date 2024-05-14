@@ -26,8 +26,8 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 #[b Figura 1.] <em>Gestión de la información</em>
         figure
-          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig_2a.svg', alt='Esquema que relaciona el proceso de la planificación financiera, el cual parte de nuevas estrategias que tienen una situación actual y situaciones futuras deseadas y no deseadas.')  
-          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_2b.svg', alt='') 
+          img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig_2a.svg', alt='Gráfico que relaciona los cinco aspectos presentes en la gestión de la información, los cuales son: 1. Recolectar datos. 2. Procesar datos. 3. Informar. 4. Distribuir. 5. Analizar tomar decisiones.')  
+          img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_2b.svg', alt='Gráfico que relaciona los cinco aspectos presentes en la gestión de la información, los cuales son: 1. Recolectar datos. 2. Procesar datos. 3. Informar. 4. Distribuir. 5. Analizar tomar decisiones.') 
 
     #t_1_1.row.mb-3.ps-2(data-aos="zoom-in-down")
       .h4.mb-0.mx-3 1.1 Análisis

@@ -8,7 +8,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-md-10.col-lg-6.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que contiene la síntesis de la temática vista en este material de formación, el cual trató aspectos de los datos, los cuales se dividen en univariante y multivariante, y que tienen que ver con las bases de datos, con el fin de siempre buscar una adecuada conservación de la información.")
       .row.aling.my-2 
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
