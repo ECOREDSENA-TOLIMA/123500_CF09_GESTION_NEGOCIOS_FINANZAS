@@ -236,7 +236,7 @@ export default {
     },
     {
       referencia:
-        'Xataka Basics. (2017). Qué es un <em<proxy</em> y cómo puedes utilizarlo para navegar de forma más anónima. Xataka.',
+        'Xataka Basics. (2017). Qué es un <em>proxy</em> y cómo puedes utilizarlo para navegar de forma más anónima. Xataka.',
       link:
         'https://www.xataka.com/basics/que-es-un-proxy-y-como-puedes-utilizarlo-para-navegar-de-forma-mas-anonima',
     },
@@ -314,7 +314,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Guiza',
+          nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollo Fullstack',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

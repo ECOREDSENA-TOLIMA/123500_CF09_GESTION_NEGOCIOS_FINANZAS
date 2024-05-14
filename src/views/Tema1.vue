@@ -186,7 +186,7 @@
           br
           | Cada herramienta aborda desde distintos ángulos el estudio, así hay unas de licencia <em>free</em> (sin costo) y otras <em>premium</em> (por lo general licencia a un año), existen unas que se conectan con <em>software</em> comúnmente usado como Excel o Power BI y hay otras que son completamente cerradas a un único fabricante.
 
-    p.mb-5 A través del siguiente video se exponen algunos <em>softwares</em> de procesamiento de datos
+    p.mb-5 A través del siguiente video se exponen algunos <em>software</em> de procesamiento de datos
 
     figure.mb-5(data-aos="zoom-in")
       .video
@@ -661,7 +661,7 @@
             .col-lg-12
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Para ampliar la información y tener un conocimiento general de la normatividad, se puede referir al enlace Normas APA: Cómo presentar trabajos escritos en https://normasapa.in/
+                  p.mb-0 Para ampliar la información y tener un conocimiento general de la normatividad, se puede referir al enlace Normas APA: cómo presentar trabajos escritos en #[a(href="https://normasapa.in/", target="_blank" style="color:blue") https://normasapa.in/]
                   
 
 
