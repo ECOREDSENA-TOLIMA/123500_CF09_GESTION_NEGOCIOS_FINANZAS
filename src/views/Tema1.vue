@@ -29,9 +29,13 @@
           img.d-none.d-sm-none.d-md-block(src='@/assets/curso/temas/tema1/fig_2a.svg', alt='Gráfico que relaciona los cinco aspectos presentes en la gestión de la información, los cuales son: 1. Recolectar datos. 2. Procesar datos. 3. Informar. 4. Distribuir. 5. Analizar tomar decisiones.')  
           img.d-block.d-md-none(src='@/assets/curso/temas/tema1/fig_2b.svg', alt='Gráfico que relaciona los cinco aspectos presentes en la gestión de la información, los cuales son: 1. Recolectar datos. 2. Procesar datos. 3. Informar. 4. Distribuir. 5. Analizar tomar decisiones.') 
 
-    #t_1_1.row.mb-3.ps-2(data-aos="zoom-in-down")
-      .h4.mb-0.mx-3 1.1 Análisis
-      .col-lg-4.bg-color-1.px-4.py-3
+    //- #t_1_1.row.mb-3.ps-2(data-aos="zoom-in-down")
+    //-   .h4.mb-0.mx-3 1.1 Análisis
+    //-   .col-lg-4.bg-color-1.px-4.py-3
+
+    Separador
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.1 Análisis
 
     p.mb-5 Los datos se logran clasificar de acuerdo a su tipo y estructura; dependiendo del tipo y la estructura se pueden manipular mediante operaciones aritméticas o lógicas que darán como resultado la información que se quiere entregar. Para investigar y analizar este conjunto de datos y clasificar sus características se utiliza el Análisis Exploratorio de Datos (EDA, por sus siglas en inglés). 
 
@@ -119,7 +123,7 @@
     p.mb-5 También, se exponen los tipos de EDA, así:   
     
     .row.justify-content-center.mt-5
-      .col-lg-8.col-12 
+      .col-lg-6.col-md-10.col-12 
         ImagenInfografica.color-acento-botones.mb-4.desktop
           template(v-slot:imagen)
             figure
@@ -170,9 +174,12 @@
         figure.movil(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema1/fig_3b.svg', alt='')
 
-    #t_1_2.row.mb-3.ps-2(data-aos="zoom-in-down")
-      .h4.mb-0.mx-3 1.2 Bases de datos
-      .col-lg-4.bg-color-2.px-4.py-3
+    //- #t_1_2.row.mb-3.ps-2(data-aos="zoom-in-down")
+    //-   .h4.mb-0.mx-3 1.2 Bases de datos
+    //-   .col-lg-4.bg-color-2.px-4.py-3
+    Separador
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.2 Bases de datos
 
     p.mb-5 Las Bases de Datos (DB, por sus siglas en inglés) son un conjunto de datos estructurado donde se almacenan estos de forma organizada y relacionada, para que se pueda acceder a los registros rápidamente mediante comandos, con la ayuda del lenguaje de programación y un equipo de cómputo. Del mismo modo, las DB se usan para el desarrollo de análisis, depuración y estructuración, a fin de generar informes de datos complejos.
 
@@ -186,15 +193,18 @@
           br
           | Cada herramienta aborda desde distintos ángulos el estudio, así hay unas de licencia <em>free</em> (sin costo) y otras <em>premium</em> (por lo general licencia a un año), existen unas que se conectan con <em>software</em> comúnmente usado como Excel o Power BI y hay otras que son completamente cerradas a un único fabricante.
 
-    p.mb-5 A través del siguiente video se exponen algunos <em>software</em> de procesamiento de datos
+    p.mb-5 A través del siguiente video se exponen algunos <em>software</em> de procesamiento de datos:
 
     figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
-    #t_1_3.row.mb-3.ps-2(data-aos="zoom-in-down")
-      .h4.mb-0.mx-3 1.3 Representación de la información
-      .col-lg-4.bg-color-3.px-4.py-3
+    //- #t_1_3.row.mb-3.ps-2(data-aos="zoom-in-down")
+    //-   .h4.mb-0.mx-3 1.3 Representación de la información
+    //-   .col-lg-4.bg-color-3.px-4.py-3
+    Separador
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.3 Representación de la información
 
     p.mb-5 El marco jurídico aplicable en Colombia para el aprovechamiento y recolección de datos está regido por:
 
@@ -234,7 +244,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-11.png', alt='Texto que describa la imagen')
 
-    p.mb-5 Deberes y prohibiciones de los ciudadanos.
+    p.mt-4.mb-5 Deberes y prohibiciones de los ciudadanos.
 
     .titulo-quinto.color-primario(data-aos="fade-down")
       h4.color-primario(style="color:#0C5E46") Trabajo en sí
@@ -467,16 +477,19 @@
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema1/img-18.svg' alt='Imagen decorativa')
 
-    #t_1_4.row.mb-3.ps-2(data-aos="zoom-in-down")
-      .h4.mb-0.mx-3 1.4 Talento humano
-      .col-lg-4.bg-color-2.px-4.py-3
+    //- #t_1_4.row.mb-3.ps-2(data-aos="zoom-in-down")
+    //-   .h4.mb-0.mx-3 1.4 Talento humano
+    //-   .col-lg-4.bg-color-2.px-4.py-3
+    Separador
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Talento humano
 
     p Los profesionales en Bases de Datos (DB) deben desarrollar, ejecutar y hacer mantenimiento con el uso de técnicas que van desde supervisar hasta optimizar el servidor que contiene la base de datos y así asegurar su disponibilidad y rendimiento. El mantenimiento de las bases de datos implica ejecutar tareas de actualización con técnicas estadísticas, supervisando el uso de la DB, servidores y espacio, planificando estrategias de copias de seguridad y recuperación de la información.
     p.mb-5 Por medio del siguiente video, se profundizará en algunos procesos del talento humano relacionados con las bases de datos.
 
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/pso94TwNc8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.aling.my-5   
       .col-lg-10(data-aos="zoom-in-down")
@@ -487,9 +500,12 @@
                 .col.mb-3.mb-sm-0
                   p.mb-0 Para un mejor entendimiento de las técnicas para el mantenimiento de DB, puede apoyarse en el video: Mantenimiento básico y respaldo de las bases de datos SQL y HANA, el cual se encuentra en el material complementario. 
     
-    #t_1_5.row.mb-3.ps-2(data-aos="zoom-in-down")
-      .h4.mb-0.mx-3 1.5 Informe técnico
-      .col-lg-4.bg-color-2.px-4.py-3
+    //- #t_1_5.row.mb-3.ps-2(data-aos="zoom-in-down")
+    //-   .h4.mb-0.mx-3 1.5 Informe técnico
+    //-   .col-lg-4.bg-color-2.px-4.py-3
+    Separador
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.5 Informe técnico
 
     p.mb-4 Es un documento que describe el progreso de una investigación o labor realizada. Está conformado por la presentación sistemática y cronológica con la información suficiente para que un lector con capacidad y conocimiento del tema tratado, pueda evaluar y proponer modificaciones a los resultados y conclusiones. Este informe se conforma de parte inicial, cuerpo, anexo y parte final, las cuales se explican un poco a continuación.
 
@@ -498,7 +514,7 @@
         img.mt-3.mb-3(src='@/assets/curso/temas/tema1/img-19.svg')(data-aos="fade-right")
       .col-lg-5.col-12(data-aos="fade-right") 
         ul.lista-ul
-          h5 Parte inicial
+          h4 Parte inicial
           p.mb-3 Contiene un orden establecido dividido en varias partes:
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
@@ -521,7 +537,7 @@
             p.mb-0 Prefacio.
 
         ul.lista-ul
-          h5 Cuerpo del informe
+          h4 Cuerpo del informe
           p.mb-3 Está dividido en:
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
@@ -615,7 +631,7 @@
         img.mt-0.mb-3(src='@/assets/curso/temas/tema1/img-21.svg')(data-aos="fade-right")
       .col-lg-5.col-12(data-aos="fade-right") 
         ul.lista-ul
-          h5 Normas APA
+          h4 Normas APA
           p.mb-3 Para la redacción de informes técnicos se recomienda el uso de las normas APA que tienen una particularidad en cuanto al tipo de letra, tamaño y márgenes:
           li(data-aos="fade-right")
             i.fas.fa-folder.ss
@@ -655,15 +671,25 @@
                 p.mb-3 Ahora bien, en cuanto al cuerpo y estructura del informe, el título debe ir centrado, en negrita y un máximo de 15 palabras. Para las referencias de las fuentes consultadas están aquellas parafraseadas (con palabras del redactor se expresa la idea del autor) y aquellas que se extraen de manera textual.
 
     .row.aling.my-3   
-      .col-lg-10(data-aos="zoom-in-down")
-        .cajon.color-custom-5.p-4.mb-4.p-4
+      .col-12(data-aos="zoom-in-down")
+        //- .cajon.color-custom-5.p-4.mb-4.p-4
+        //-   .row.justify-content-around.align-items-center
+        //-     .col-lg-12
+        //-       .row.justify-content-between.align-items-center
+        //-         .col.mb-3.mb-sm-0
+        //-           p.mb-0 Para ampliar la información y tener un conocimiento general de la normatividad, se puede referir al enlace Normas APA: cómo presentar trabajos escritos en #[a(href="https://normasapa.in/", target="_blank" style="color:blue") https://normasapa.in/]
+        .tarjeta.color-secundario-c.p-3.mb-3
           .row.justify-content-around.align-items-center
-            .col-lg-12
+            .col-2.col-sm-2.col-lg-1
+              img(src="@/assets/componentes/ico-export-3.svg")
+            .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 Para ampliar la información y tener un conocimiento general de la normatividad, se puede referir al enlace Normas APA: cómo presentar trabajos escritos en #[a(href="https://normasapa.in/", target="_blank" style="color:blue") https://normasapa.in/]
-                  
-
+                  p.mb-1.text-white Para ampliar la información y tener un conocimiento general de la normatividad, se puede referir al enlace Normas APA: Cómo presentar trabajos escritos en:
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://normasapa.in/" target="_blank")
+                    span Enlace web
+                    i.fas.fa-file-code
 
 
 
