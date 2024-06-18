@@ -269,7 +269,7 @@ export default {
           nombre: 'Abel Fernando Becerra Carrillo',
           cargo: 'Experto Temático',
           centro:
-            'Centro de la Industria, la empresa y los servicios- Región Norte de Santander',
+            'Centro de la Industria, la empresa y los servicios - Región Norte de Santander',
         },
         {
           nombre: 'Diego E. Acevedo Guevara',
@@ -286,7 +286,7 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
@@ -321,7 +321,7 @@ export default {
         {
           nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -329,14 +329,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación y Vinculación de Recursos Educativos Digitales',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
