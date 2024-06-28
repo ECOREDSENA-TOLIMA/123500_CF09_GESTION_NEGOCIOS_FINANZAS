@@ -119,6 +119,13 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_elibroELB122682',
     },
     {
+      tema: '1.2 Bases de datos',
+      referencia:
+        'Spain BS. (2015). Webinar <em>big data</em> para dummies. [Video]. YouTube. https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
+    },
+    {
       tema: '1.3 Representación de la información',
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación (Icontec). (2014). <em>Tecnología de la información: técnicas de seguridad. Gestión de incidentes de seguridad de la información. Icontec.</em>',
@@ -127,11 +134,12 @@ export default {
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
     },
     {
-      tema: '1.2 Bases de datos',
+      tema: '1.4 Talento humano',
       referencia:
-        'Spain BS. (2015). Webinar <em>big data</em> para dummies. [Video]. YouTube. https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=fZhpLdZx5Qg&ab_channel=SpainBS',
+        'Razak, M., Nor, B., A., Rosli, S., & Ahmad, F. (2016). <em>The rise of malware</em>: bibliometric analysis of malware study. Journal of Network and Computer Applications, 75, 58-76.',
+      tipo: 'Artículo',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
     },
     {
       tema: '1.4 Talento humano',
@@ -162,7 +170,7 @@ export default {
     {
       termino: '<em>Hardware</em>',
       significado:
-        'elementos físicos conformados por microprocesadores, microcontroladores y demás dispositivos microelectrónicos que, en conjunto, forman una equipo funcional, ejemplo: computador, tarjetas de gráficos, etc.',
+        'elementos físicos conformados por microprocesadores, microcontroladores y demás dispositivos microelectrónicos que, en conjunto, forman un equipo funcional, ejemplo: computador, tarjetas de gráficos, etc.',
     },
     {
       termino: 'Propietario',
@@ -177,7 +185,7 @@ export default {
     {
       termino: '<em>Software</em>',
       significado:
-        'programas instalados o configurados en el <em>hardware</em> que logran el funcionamiento eficiente de todos los periféricos y puertos de los equipos, ejemplo: sistemas operativos, antivirus, <em>firewall</em>, aplicaciones, etc',
+        'programas instalados o configurados en el <em>hardware</em> que logran el funcionamiento eficiente de todos los periféricos y puertos de los equipos, ejemplo: sistemas operativos, antivirus, <em>firewall</em>, aplicaciones, etc.',
     },
   ],
   referencias: [
@@ -252,13 +260,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo: 'Líder Ecosistema de Recursos Educativos Digitales',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Tolima',
+          cargo: 'Responsable de Línea de Producción Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -269,29 +277,34 @@ export default {
           nombre: 'Abel Fernando Becerra Carrillo',
           cargo: 'Experto Temático',
           centro:
-            'Centro de la Industria, la empresa y los servicios - Región Norte de Santander',
+            'Región Norte de Santander - Centro de la Industria, la empresa y los servicios',
         },
         {
           nombre: 'Diego E. Acevedo Guevara',
-          cargo: 'Diseño Instruccional',
+          cargo: 'Diseñador Instruccional',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
-          cargo: 'Asesoría Metodológica y Evaluación Instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrección de Estilo',
-          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+          cargo: 'Corrector de Estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -299,29 +312,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Producción Audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción Audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
           nombre: 'José Jaime Luis Tang Pinzón',
-          cargo: 'Diseño Web',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Diseñador de Contenidos Digitales',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Oscar Daniel Espitia Marin',
           cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Francisco José Vásquez Suárez',
-          cargo: 'Desarrollo Fullstack',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animador y Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y Productor Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -330,13 +338,13 @@ export default {
       autores: [
         {
           nombre: 'Norma Constanza Morales Cruz',
-          cargo: 'Evaluación de Contenidos Inclusivos y Accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Evaluadora de Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
-          cargo: 'Validación y Vinculación de Recursos Educativos Digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          cargo: 'Validador y Vinculador de Recursos Educativos Digitales LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

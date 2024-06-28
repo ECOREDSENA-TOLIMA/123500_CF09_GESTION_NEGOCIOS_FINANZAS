@@ -16,7 +16,7 @@
             .col-lg-12
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-0 La información permite aumentar el conocimiento del usuario aportando a la toma decisiones, probabilidades para la elección y suministrar una serie de reglas de evaluación y decisión para fines de control. Además, la información debe estar disponible para cualquier receptor autorizado y cumplir a cabalidad el criterio de transparencia de la información.
+                  p.mb-0 La información permite aumentar el conocimiento del usuario, aportando a la toma decisiones, probabilidades para la elección y suministrar una serie de reglas de evaluación y decisión para fines de control. Además, la información debe estar disponible para cualquier receptor autorizado y cumplir a cabalidad el criterio de transparencia de la información.
 
     .titulo-quinto.color-primario(data-aos="fade-down")
       h4.color-primario(style="color:#0C5E46") La gestión de la información se puede resumir en cinco pasos, a saber:
@@ -80,10 +80,10 @@
                 ul.lista-ul.mb-3
                   li.mb-0
                     i.fas.fa-check(style="color:#635994")
-                    | Técnicas de asociación en clúster y disminución de dimensiones que ayudan a crear  observaciones gráficas en los datos de alta dimensión multivariables.
+                    | Técnicas de asociación en #[em clúster] y disminución de dimensiones que ayudan a crear  observaciones gráficas en los datos de alta dimensión multivariables.
                   li.mb-0
                     i.fas.fa-check(style="color:#635994")
-                    | Observaciones univariante de registro de un conjunto de datos sin formato, con estadísticas de resumen (ER).
+                    | Observaciones univariantes de registro de un conjunto de datos sin formato, con estadísticas de resumen (ER).
                   li.mb-0
                     i.fas.fa-check(style="color:#635994")
                     | Observaciones multivariantes, bivariantes y ER que dan la posibilidad de evaluar la correlación entre variables independientes y dependientes.
@@ -92,7 +92,7 @@
                     | Agrupación con aprendizaje no supervisado.
                   li.mb-0
                     i.fas.fa-check(style="color:#635994")
-                    | Uso de modelos predictivos estadísticos (regresión lineal simple y múltiple).
+                    | Uso de modelos predictivos estadísticos (regresión lineal, simple y múltiple).
 
             .col-lg-5
               figure
@@ -507,7 +507,7 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Informe técnico
 
-    p.mb-4 Es un documento que describe el progreso de una investigación o labor realizada. Está conformado por la presentación sistemática y cronológica con la información suficiente para que un lector con capacidad y conocimiento del tema tratado, pueda evaluar y proponer modificaciones a los resultados y conclusiones. Este informe se conforma de parte inicial, cuerpo, anexo y parte final, las cuales se explican un poco a continuación.
+    p.mb-4 Es un documento que describe el progreso de una investigación o labor realizada. Está conformado por la presentación sistemática y cronológica, con la información suficiente para que un lector, con capacidad y conocimiento del tema tratado, pueda evaluar y proponer modificaciones a los resultados y conclusiones. Este informe se conforma de parte inicial, cuerpo, anexo y parte final, las cuales se explican un poco a continuación.
 
     .row.justify-content-center.mb-4
       .col-lg-5.col-12(data-aos="fade-left") 
