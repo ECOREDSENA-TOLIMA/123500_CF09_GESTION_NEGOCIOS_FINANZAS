@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="24.942" viewBox="0 0 190 24.942">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.057" y1="0.5" x2="0.913" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#359547"/>
+      <stop offset="1" stop-color="#3ae3fe"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_877607" data-name="Grupo 877607" transform="translate(-181 -5171.528)">
+    <path id="Unión_6" data-name="Unión 6" d="M8394.707,11713.942l-3.943-13.943h4.508l3.943,13.943Zm-7.437,0-3.943-13.943h4.508l3.944,13.943Zm-7.325,0L8376,11700h4.508l3.944,13.943Z" transform="translate(-8195.001 -6528.471)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_215586" data-name="Trazado 215586" d="M0,0H190V4H104.857L101,2H0Z" transform="translate(181 5192.471)" fill="#359547" opacity="0.45"/>
+  </g>
+</svg>
