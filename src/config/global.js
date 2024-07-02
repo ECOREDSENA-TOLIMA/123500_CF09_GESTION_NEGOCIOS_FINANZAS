@@ -133,14 +133,14 @@ export default {
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
     },
-    {
-      tema: '1.4 Talento humano',
-      referencia:
-        'Razak, M., Nor, B., A., Rosli, S., & Ahmad, F. (2016). <em>The rise of malware</em>: bibliometric analysis of malware study. Journal of Network and Computer Applications, 75, 58-76.',
-      tipo: 'Artículo',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
-    },
+    // {
+    //   tema: '1.4 Talento humano',
+    //   referencia:
+    //     'Razak, M., Nor, B., A., Rosli, S., & Ahmad, F. (2016). <em>The rise of malware</em>: bibliometric analysis of malware study. Journal of Network and Computer Applications, 75, 58-76.',
+    //   tipo: 'Artículo',
+    //   link:
+    //     'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000075887',
+    // },
     {
       tema: '1.4 Talento humano',
       referencia:
@@ -260,12 +260,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder Ecosistema de Recursos Educativos Digitales',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Responsable de Línea de Producción Tolima',
+          cargo: 'Responsable de Línea de Producción',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
@@ -322,13 +322,13 @@ export default {
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Animador y Productor Audiovisual',
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Productor Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Animador y Productor Audiovisual',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Productor Audiovisual',
           centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],

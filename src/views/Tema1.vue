@@ -80,7 +80,7 @@
                 ul.lista-ul.mb-3
                   li.mb-0
                     i.fas.fa-check(style="color:#635994")
-                    | Técnicas de asociación en #[em clúster] y disminución de dimensiones que ayudan a crear  observaciones gráficas en los datos de alta dimensión multivariables.
+                    p Técnicas de asociación en #[em clúster] y disminución de dimensiones que ayudan a crear  observaciones gráficas en los datos de alta dimensión multivariables.
                   li.mb-0
                     i.fas.fa-check(style="color:#635994")
                     | Observaciones univariantes de registro de un conjunto de datos sin formato, con estadísticas de resumen (ER).
