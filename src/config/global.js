@@ -224,10 +224,10 @@ export default {
       link:
         'https://datos.gob.es/es/blog/las-herramientas-de-analisis-de-datos-mas-populares',
     },
-    {
-      referencia: 'Google Sites. (2022). Dato - Sección Informática.',
-      link: 'https://www.glosarioit.com/Dato',
-    },
+    // {
+    //   referencia: 'Google Sites. (2022). Dato - Sección Informática.',
+    //   link: 'https://www.glosarioit.com/Dato',
+    // },
     {
       referencia: 'IBM. (2020). Análisis exploratorio de datos. IBM.',
       link: 'https://www.ibm.com/co-es/cloud/learn/exploratory-data-analysis',
